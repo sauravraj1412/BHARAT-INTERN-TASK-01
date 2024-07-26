@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color:rgba(1, 9, 27, 1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(1, 9, 27, 1);
+}
+
+.logo {
+    font-size: 60px;
+    padding-left: 70px;
+    font-weight:bolder;
+    color: #e50914;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap:45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#e50914;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+nav ul li button{
+    height:40px;
+    width:100px;
+    font-size: 20px;
+    color: white;
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    border-radius: 8px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.banner {
+    height: 85vh;
+    background: url('https://mostaql.hsoubcdn.com/uploads/portfolios/2078649/63e3e7541df21/background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content {
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 3.1rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.9rem;
+    font-weight: 450;
+    line-height: 55px;
+    margin: 10px 0;
+}
+.banner-content input{
+    height:55px;
+    width: 500px;
+    font-size: 25px;
+    padding-left: 25px;
+    background-color: #141414;
+    color:white;
+    opacity: 90%;
+    border:2px solid white;
+    margin-top: 30px;
+}
+.banner-content button {
+    height:60px;
+    width:150px;
+    font-size: 22px;
+    border: 2px solid #e50914;
+    border-radius: 10px;
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+.featured h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e50914;
+    text-align: center;
+}
+
+.featured-content {
+    height: 120px;
+    width: 1215px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#item1{
+    width: 90px;
+    height: 200px;
+    display: flex;
+    margin-left: 15px;
+    
+}
+#item1 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#item2{
+    width: 90px;
+    height: 200px;
+    display: flex;
+   
+}
+#item2 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#item3{
+    width: 90px;
+    height: 200px;
+    display: flex;
+   
+}
+#item3 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#item4{
+    width: 90px;
+    height: 200px;
+    display: flex;
+    margin-right: 15px;
+   
+}
+#item4 img{
+    background-size: cover;
+    border:3px solid white;
+}
+.movies h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e50914;
+    text-align: center;
+    margin-top: 110px;
+}
+.movie-content {
+    height: 120px;
+    width: 1215px;
+    display: flex;
+    justify-content: space-between;
+}
+#movie1{
+    width: 90px;
+    height: 200px;
+    display: flex;
+    margin-left: 15px;
+   
+}
+#movie1 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#movie2{
+    width: 90px;
+    height: 200px;
+    display: flex;
+   
+}
+#movie2 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#movie3{
+    width: 90px;
+    height: 200px;
+    display: flex;
+   
+}
+#movie3 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#movie4{
+    width: 90px;
+    height: 200px;
+    display: flex;
+    margin-right: 15px;
+   
+}
+#movie4 img{
+    background-size: cover;
+    border:3px solid white;
+}
+.cartoons h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e50914;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cartoons-content {
+    height: 120px;
+    width: 1215px;
+    display: flex;
+    justify-content: space-between;
+}
+#cartoon1{
+    width: 90px;
+    height: 200px;
+    display: flex;
+    margin-left: 15px;
+   
+}
+#cartoon1 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#cartoon2{
+    width: 90px;
+    height: 200px;
+    display: flex;
+   
+}
+#cartoon2 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#cartoon3{
+    width: 90px;
+    height: 200px;
+    display: flex;
+   
+}
+#cartoon3 img{
+    background-size: cover;
+    border:3px solid white;
+}
+#cartoon4{
+    width: 90px;
+    height: 200px;
+    display: flex;
+    margin-right: 15px;
+   
+}
+#cartoon4 img{
+    background-size: cover;
+    border:3px solid white;
+}
+footer {
+    margin-top: 140px;
+    height:150px;
+    background-color:#bbbbbb;
+    opacity:70%;
+    
+}
+footer p {
+    color:black;
+    text-align: center;
+    padding-top: 13px;
+}
+
